@@ -8,4 +8,7 @@ jobs:
 
     steps:
       - name: Deploy Application
-        run: echo "Deploying the application."
+        run: echo "Deploying the application..."
+
+      - name: Show files
+        run: ls -la
